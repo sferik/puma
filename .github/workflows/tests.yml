@@ -3,6 +3,7 @@ name: Tests
 on:
   push:
     branches:
+      - ci-check
       - main
       - '*-stable'
       - 'release-v*'
